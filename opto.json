@@ -1,0 +1,218 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "que tal",
+                "como estas",
+                "saludos",
+                "buenas",
+                "cómo va todo",
+                "qué tal todo",
+                "buenas tardes",
+                "buenas noches"
+            ],
+            "responses": [
+                "hola",
+                "buenos dias",
+                "como estas",
+                "¡Hola! ¿Cómo te encuentras?",
+                "¡Hola! ¿Qué tal?"
+            ]
+        },
+        {
+            "tag": "nombre",
+            "patterns": [
+                "como es tu nombre",
+                "como te llamas",
+                "cual es tu nombre",
+                "cómo te llamas",
+                "quién eres"
+            ],
+            "responses": [
+                "me llamo valerio bot",
+                "mi nombre es valerio bot",
+                "soy valerio bot, ¿y tú?"
+            ]
+        },
+        {
+            "tag": "espectro_emision",
+            "patterns": [
+                "qué es el espectro de emisión",
+                "cómo funciona el espectro de emisión",
+                "qué son los espectros de emisión",
+                "puedes explicar el espectro de emisión",
+                "dime qué es el espectro de emisión"
+            ],
+            "responses": [
+                "El espectro de emisión es el conjunto de longitudes de onda emitidas por un material al ser calentado, descomponiendo la luz en sus colores componentes."
+            ]
+        },
+        {
+            "tag": "efecto_fotoelectrico",
+            "patterns": [
+                "qué es el efecto fotoeléctrico",
+                "cómo funciona el efecto fotoeléctrico",
+                "qué son los fotoelectrones",
+                "explícame el efecto fotoeléctrico",
+                "qué sucede en el efecto fotoeléctrico"
+            ],
+            "responses": [
+                "El efecto fotoeléctrico es la emisión de electrones por un material cuando se ilumina con luz de cierta frecuencia, liberando electrones llamados fotoelectrones."
+            ]
+        },
+        {
+            "tag": "dispositivos_optoelectrónicos",
+            "patterns": [
+                "qué son los dispositivos optoelectrónicos",
+                "ejemplos de dispositivos optoelectrónicos",
+                "cómo funcionan los dispositivos optoelectrónicos",
+                "dime ejemplos de dispositivos optoelectrónicos",
+                "qué hace un dispositivo optoelectrónico"
+            ],
+            "responses": [
+                "Los dispositivos optoelectrónicos son componentes que funcionan mediante radiación luminosa. Ejemplos incluyen LEDs, fotodiodos, fototransistores y celdas solares."
+            ]
+        },
+        {
+            "tag": "fotodetectores",
+            "patterns": [
+                "qué son los fotodetectores",
+                "cómo funcionan los fotodetectores",
+                "para qué sirven los fotodetectores",
+                "cuáles son los fotodetectores",
+                "dime ejemplos de fotodetectores"
+            ],
+            "responses": [
+                "Los fotodetectores captan luz y la convierten en energía eléctrica. Ejemplos son fototransistores, fotodiodos y celdas solares."
+            ]
+        },
+        {
+            "tag": "materiales_optoelectrónica",
+            "patterns": [
+                "qué materiales se usan en optoelectrónica",
+                "menciona materiales de optoelectrónica",
+                "qué es un prisma equilátero",
+                "qué materiales son importantes en optoelectrónica",
+                "qué materiales se utilizan para dispositivos optoelectrónicos"
+            ],
+            "responses": [
+                "En optoelectrónica se usan materiales como prismas equiláteros, lentes biconvexas, filtros, LEDs de distintos colores y fotomultiplicadores."
+            ]
+        },
+        {
+            "tag": "medicion_fotoelectrica",
+            "patterns": [
+                "cómo medir el efecto fotoeléctrico",
+                "qué se necesita para medir el efecto fotoeléctrico",
+                "cómo funciona un fotomultiplicador",
+                "qué dispositivos se usan para medir el efecto fotoeléctrico",
+                "cómo se mide la emisión de electrones en el efecto fotoeléctrico"
+            ],
+            "responses": [
+                "Para medir el efecto fotoeléctrico se usa un fotomultiplicador que convierte la luz en corriente eléctrica. Este proceso depende de la longitud de onda y la intensidad de la luz."
+            ]
+        },
+        {
+            "tag": "sensores_de_luz",
+            "patterns": [
+                "qué son los sensores de luz",
+                "cómo funcionan los sensores de luz",
+                "ejemplos de sensores de luz",
+                "cuáles son los sensores de luz más comunes",
+                "qué hacen los sensores de luz"
+            ],
+            "responses": [
+                "Los sensores de luz son dispositivos optoelectrónicos que convierten energía luminosa en energía eléctrica o detectan luz incidente. Ejemplos incluyen fotorresistencias, fotodiodos y fototransistores."
+            ]
+        },
+        {
+            "tag": "fotoemisivos",
+            "patterns": [
+                "qué son los dispositivos fotoemisivos",
+                "cómo funcionan los dispositivos fotoemisivos",
+                "dame un ejemplo de dispositivo fotoemisivo",
+                "cómo se emite luz en un dispositivo fotoemisivo",
+                "qué tipos de dispositivos fotoemisivos existen"
+            ],
+            "responses": [
+                "Los dispositivos fotoemisivos emiten luz mediante la interacción de electrones con fósforo en su superficie. Un ejemplo común es la pantalla de televisión o el osciloscopio."
+            ]
+        },
+        {
+            "tag": "fotorresistencias",
+            "patterns": [
+                "qué es una fotorresistencia",
+                "cómo funciona una fotorresistencia",
+                "qué materiales componen una fotorresistencia",
+                "en qué se utiliza una fotorresistencia",
+                "cómo se comporta una fotorresistencia ante luz"
+            ],
+            "responses": [
+                "La fotorresistencia es un dispositivo semiconductor cuya resistencia varía con la intensidad de la luz incidente. Está fabricada con materiales como Sulfuro de Cadmio (CdS) o Seleniuro de Cadmio (CdSe)."
+            ]
+        },
+        {
+            "tag": "fotodiodos",
+            "patterns": [
+                "qué es un fotodiodo",
+                "cómo funciona un fotodiodo",
+                "dime características de un fotodiodo",
+                "en qué se utiliza un fotodiodo",
+                "qué sucede cuando un fotodiodo recibe luz"
+            ],
+            "responses": [
+                "El fotodiodo es un dispositivo semiconductor que trabaja con polarización inversa. Su corriente inversa varía con la intensidad de la luz incidente, produciendo pares hueco-electrón."
+            ]
+        },
+        {
+            "tag": "fototransistores",
+            "patterns": [
+                "qué es un fototransistor",
+                "cómo funciona un fototransistor",
+                "para qué sirve un fototransistor",
+                "qué aplicaciones tiene un fototransistor",
+                "en qué se utiliza un fototransistor"
+            ],
+            "responses": [
+                "El fototransistor es un dispositivo fotosensible que amplifica la corriente generada por la luz incidente. Es más sensible que un fotodiodo y se utiliza en sistemas de conteo y alarmas."
+            ]
+        },
+        {
+            "tag": "leds",
+            "patterns": [
+                "qué es un LED",
+                "cómo funciona un LED",
+                "qué aplicaciones tienen los LEDs",
+                "por qué los LEDs son eficientes",
+                "en qué dispositivos se usan los LEDs"
+            ],
+            "responses": [
+                "El LED (diodo emisor de luz) es un dispositivo semiconductor que emite luz mediante electroluminiscencia. Es eficiente y tiene aplicaciones en señalización, iluminación y electrónica de consumo."
+            ]
+        },
+        {
+            "tag": "fototiristores",
+            "patterns": [
+                "qué es un fototiristor",
+                "cómo funciona un fototiristor",
+                "cuáles son las aplicaciones de un fototiristor",
+                "qué hace un fototiristor",
+                "en qué situaciones se utiliza un fototiristor"
+            ],
+            "responses": [
+                "El fototiristor es un dispositivo activado por luz que funciona como un rectificador controlado. Se utiliza en controles ópticos luminosos, relevadores y sistemas de control de motores."
+            ]
+        },
+        {
+            "tag": "desconocido",
+            "patterns": [
+                
+            ],
+            "responses": [
+                "Lo siento, no tengo información sobre eso. Por favor, comunícate con 'Andres Eduardo'."
+            ]
+        }
+    ]
+}
