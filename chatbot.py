@@ -12,6 +12,11 @@ from keras.models import load_model
 # Inicializamos el lematizador   
 lemmatizer = WordNetLemmatizer()
 
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 intents = json.loads(open('n.json').read())
 
 words=pickle.load(open('words.pkl','rb'))
