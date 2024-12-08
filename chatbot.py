@@ -12,7 +12,7 @@ from keras.models import load_model
 # Inicializamos el lematizador   
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('dspopto.json').read())
 
 words=pickle.load(open('words.pkl','rb'))
 classes=pickle.load(open('classes.pkl','rb'))
