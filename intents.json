@@ -10,7 +10,7 @@
     {
         "tag":"nombre",      
         "patterns":["como es tu nombre","como te llamas"],
-        "responses":["me llamo juan pablo","mi nombre es juan pablo"]
+        "responses":["me llamo valerio bot","mi nombre es valerio bot"]
     
     }
     
