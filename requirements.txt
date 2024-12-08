@@ -2,6 +2,5 @@ streamlit
 nltk
 numpy
 tensorflow
-punkt_tab
-punkt
+
 
