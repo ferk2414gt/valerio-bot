@@ -1,14 +1,11 @@
 import streamlit as st 
 from chatbot import predict_class, get_response, intents
-import nltk
+
 
 
 st.title("valerio Bot")
 
-nltk.download('punkt_tab')
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+
 
 
 if "messages" not in st.session_state:
