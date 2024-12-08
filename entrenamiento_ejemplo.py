@@ -15,7 +15,7 @@ from keras.optimizers import SGD
 lemmatizer = WordNetLemmatizer()
 
 # Cargamos el archivo intents.json
-intents = json.loads(open('dspopto.json').read())
+intents = json.loads(open('opto.json').read())
 
 # Descargar recursos de NLTK necesarios
 nltk.download('punkt_tab')
