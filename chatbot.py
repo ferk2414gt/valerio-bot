@@ -14,6 +14,12 @@ lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('intents.json').read())
 
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
+
 words=pickle.load(open('words.pkl','rb'))
 classes=pickle.load(open('classes.pkl','rb'))
 model=load_model('pruebafff_chat.h5')
