@@ -1,5 +1,5 @@
 import streamlit as st 
-from chat import predict_intent, get_response, intents
+from chat_2 import predict_intent, get_response, intents
 
 st.title("valerio Bot")
 
