@@ -10,8 +10,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 model = load_model("chatbot_lstm.h5")
 with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
-with open("label_encoder.pkl", "rb") as f:
-    label_encoder = pickle.load(f)
+    open("label_encoder.pkl", "rb")
+    label_encoder = pickle.load("label_encoder.pkl")
 with open("max_len.pkl", "rb") as f:
     max_len = pickle.load(f)
 
